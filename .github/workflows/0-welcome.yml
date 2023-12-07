@@ -90,6 +90,8 @@ jobs:
           to_step: 1
           branch_name: welcome-workflow
           name: Post welcome comment
+
+name: Post welcome comment
 on:
   pull_request:
     types: [opened]
